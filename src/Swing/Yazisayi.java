@@ -44,7 +44,7 @@ public class Yazisayi {
         onumbers.put("milyon", 1000000);
         onumbers.put("milyar", 1000000000);        
     }
-    public int wordToNumber(String input) {
+    public int yaziSayi(String input) {
         int sum=0;
         Integer temp=null;
         Integer previous=0;
